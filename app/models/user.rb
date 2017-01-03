@@ -1,6 +1,4 @@
 class User < ApplicationRecord
-  belongs_to :group
-  belongs_to :user
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
